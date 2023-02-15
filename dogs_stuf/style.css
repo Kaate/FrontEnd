@@ -1,0 +1,274 @@
+html{
+    font-family: 'Jost', sans-serif;
+}
+
+nav{
+    font-family: 'Jost', sans-serif;
+}
+
+nav .nav-link:hover{
+    color:white;
+}
+
+
+.title {
+    background-color: #f7c6b1;
+    /* height: 60em; */
+    font-family: 'Jost', sans-serif;
+}
+
+.title img{
+    height: 90%; 
+    margin-right: 0;
+}
+
+.title h1{
+    margin-top: 15rem;
+}
+
+@media(max-width: 1200px){
+    .title h1{
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width: 992px){
+    .title h1{
+        margin-top: 0rem;
+    }
+    .title{
+        padding-bottom: 3rem;
+    }
+}
+
+.title h2{
+    margin-top: 1.8rem;
+    font-size: 25px;
+    font-weight: 600;
+    color: #786056;
+}
+
+.title p{
+    margin-top: 1.4rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.title .btn{
+    background-color: #786056;
+    color: white;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 8px 20px;
+    font-family: 'Jost', sans-serif;
+
+    transition: 200ms;
+}
+
+.title .btn:hover{
+    border: 1px solid #786056;
+    color: #786056;
+}
+
+.count {
+    background-color: #fbded2;
+    font-family: 'Jost', sans-serif;
+}
+
+.count .num{
+    color: #786056;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
+}
+
+@media(max-width: 1100px){
+    .count .num{
+        font-size: 30px;
+    }
+}
+
+.count .tx{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.why{
+    margin-bottom: 5rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.why h1{
+    color:#786056;
+    font-size: 50px;
+    font-weight: 400;
+
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.why p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.why h2{
+    color:#786056;
+    font-size: 25px;
+    font-weight: 600;
+
+    margin-bottom: 1rem;
+}
+
+@media(max-width:1000px){
+    .why h2{
+        font-size: 20px;
+    }
+}
+
+.about{
+    font-family: 'Jost', sans-serif;;
+}
+
+.about img{
+    background-color: #f7c6b1;
+}
+
+.about h1{
+    color:#786056;
+    font-size: 50px;
+    font-weight: 400;
+
+    margin-bottom: 1rem;
+}
+
+.about p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.about .btn{
+    background-color: #786056;
+    color: white;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 8px 20px;
+    font-family: 'Jost', sans-serif;
+
+    transition: 200ms;
+}
+
+.about .btn:hover{
+    border: 1px solid #786056;
+    color: #786056;
+}
+
+.about .btn2{
+    background-color: #B89484;
+    color: white;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 8px 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+.about .btn2:hover{
+    border: 1px solid #B89484;
+    color:#B89484;
+}
+
+.products{
+    /* margin-top: 5rem; */
+    background-color: #fbded2;
+    font-family: 'Jost', sans-serif;
+}
+
+.products h1{
+    color:#786056;
+    font-size: 50px;
+    font-weight: 400;
+
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.products .icon{
+    background-color: white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    /* padding: 30px; */
+    margin-bottom: 2rem;
+
+    transition: 200ms;
+}
+
+.products .icon:hover{
+    width: 120px;
+    height: 120px;
+}
+
+.products svg{
+    margin-top: 45%;
+}
+
+.products h2{
+    color:#786056;
+    font-size: 20px;
+    font-weight: 400;
+
+    margin-bottom: 1rem;
+}
+
+.review{
+    margin-bottom: 5rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.review h1 {
+    color:#786056;
+    font-size: 50px;
+    font-weight: 400;
+
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.review h2, svg{
+    color:#786056;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.review .text-review{
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    font-family: 'Jost', sans-serif;
+    background-color: #f7c6b1;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+footer .btn {
+    background-color: #786056;
+    color: white;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 8px 30px;
+    font-family: 'Jost', sans-serif;
+}
+
+footer .btn:hover{
+    border: 1px solid #786056;
+    color:#786056;
+}
+
+footer input[type="email"] {
+    background-color: white;
+    width: 100%;
+    padding: 6px 10px;
+    border: none;
+  }

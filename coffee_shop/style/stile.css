@@ -1,0 +1,198 @@
+h1, h2, h3, p, .btn, a{
+    font-family: 'Quicksand', sans-serif;
+}
+
+#mainNavbar {
+    padding-left: 30px;  
+}
+
+#mainNavbar .nav-link:hover{
+    color: #FF9769;
+    border-bottom: 1px solid #FF9769;
+    transition: 300ms;
+}
+
+.navbar a {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.navbar .logo {
+    color:#FF9769;
+    font-size: 1rem;
+}
+
+.navbar.scrolled {
+    background: #201d1cbd;
+    transition: background 300ms;
+}
+
+.intro-text {
+    position: absolute;
+}
+
+.intro-text h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.intro-text .btn {
+    color: #FF9769;
+    border: 2px solid #FF9769;
+    border-radius: 0;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+@media(max-width: 600px){
+    .intro-text h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.intro-text .btn:hover {
+    background-color: #FF9769;
+    color: #201D1C;
+    transition: 300ms;
+}
+
+.intro-text .btn:last-child {
+    background-color:#FF9769;
+    color: #201D1C;
+    border-radius: 0;
+    margin-right: 20px;
+}
+
+.intro-text .btn:last-child:hover {
+    background-color:#201D1C;
+    color: #FF9769;
+    transition: 300ms;
+}
+
+.reservation {
+    background-color: #FF9769;
+    height: 150px;
+}
+
+.reservation .btn {
+    border: 2px solid #201D1C;
+    color: #201D1C;
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+.reservation .btn:hover {
+    background-color: #201D1C;
+    color: #FF9769;
+    transition: 300ms;
+}
+
+.reservation .content {
+    padding-top: 60px;
+}
+
+.coffee {
+    background-color: #201D1C;
+}
+
+.coffee .coffee-top{
+    width: 300px;
+}
+
+.coffee h1{
+    border-bottom: 2px solid #FF9769;
+    margin: auto;
+}
+
+.coffee h2{
+    font-size: 20px;
+}
+
+.coffee h3{
+    color: #FF9769;
+}
+
+.coffee p{
+    font-size: 15px;
+}
+
+.cakes{
+    position: relative;
+}
+
+.cakes h2{
+    font-size: 30px;
+}
+
+.cakes img{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.cakes .container-fluid {
+    position: absolute;
+    top: 8em;
+}
+
+.cakes .info{
+    color: white;
+    background-color: #201d1cdc;
+    padding: 60px;
+}
+
+.cakes .btn {
+    color: #FF9769;
+    border: 2px solid #FF9769;
+    border-radius: 0;
+}
+
+.cakes .btn:hover{
+    background-color: #FF9769;
+    color:#201D1C;
+    transition: 300ms;
+}
+
+.contact {
+    color: white;
+    background-color: #201D1C;
+}
+
+.contact h1{
+    font-size: 30px;
+}
+
+.contact input::-webkit-input-placeholder {
+    color: #615a567f !important;
+    font-size: 15px;
+}
+
+.contact textarea::-webkit-input-placeholder {
+    color: #615a567f !important;
+    font-size: 15px;
+}
+
+.contact input {
+    background-color: #201D1C;
+    border: 2px solid #FF9769;
+    border-radius: 0;
+}
+
+.contact textarea {
+    background-color: #201D1C;
+    border: 2px solid #FF9769;
+    border-radius: 0;
+}
+
+.contact .btn {
+    color: #FF9769;
+    border: 2px solid #FF9769;
+    border-radius: 0;
+}
+
+.contact .btn:hover{
+    background-color: #FF9769;
+    color:#201D1C;
+    transition: 300ms;
+}
